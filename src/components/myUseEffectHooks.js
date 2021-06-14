@@ -36,7 +36,7 @@ function MyUseEffectHooks() {
 
     return (
         <div>
-            <p>Du har klikket {this.state.count} gange</p>
+            <p>Du har klikket {count} gange</p>
             <button onClick={() => setCount(count + 1)}>
                 Tryk på mig
             </button>
@@ -44,5 +44,5 @@ function MyUseEffectHooks() {
     );
 }
 
-export default MyUseEffectHooksComponent;
-//export default MyUseEffectHooks;
+//export default MyUseEffectHooksComponent;
+export default MyUseEffectHooks;
